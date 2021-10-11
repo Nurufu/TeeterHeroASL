@@ -7,22 +7,13 @@ state("Teeter Hero")
 
 init {
 	vars.igt = 0;
-	//vars.endState = 0;
-	//print("Length = " + current.length);
-	//print("Timer = " + current.Timer);
-	//print("Split = " + vars.split.ToString());
-	//print("State = " + current.State.ToString());
 }
 
 startup {
-	//print("Startup");
-	//refreshRate = 60;
-	//settings.Add("10x", false, "10x Time Fix");
+
 }
 
 update {
-	//print("State = " + current.State.ToString());
-	//print("Stage = " + current.Stage.ToString());
 	if(current.Timer > 0.1)
 	{
 		vars.igt = current.Timer;
